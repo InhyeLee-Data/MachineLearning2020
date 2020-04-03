@@ -1,6 +1,6 @@
-ML Project #2 : Airplane Image Classification
+<b>ML Project #2</b> : Airplane Image Classification
 
-V1. (Apr 2)
+<b>V1(Apr 2)</b>
 
 
 Both models had a very low FP rate.
