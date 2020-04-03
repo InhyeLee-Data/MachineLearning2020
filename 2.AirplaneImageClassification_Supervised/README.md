@@ -1,6 +1,6 @@
 Airplane Image Classification Log
 
-<b>V1(Apr 2)</b>
+<b>V1 (Apr 2)</b>
 
 
 Both models had a very low FP rate.
