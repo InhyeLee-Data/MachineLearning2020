@@ -1,4 +1,4 @@
-## IMDB Movie Review NLP Supervised Learning Log
+### IMDB Movie Review NLP Supervised Learning Log
 
 #### v1 (Resubmission. March 21 2020)
 - fit_transform (training) vs transform (testing) added
