@@ -2,12 +2,11 @@
 
 #### V1 (Apr 2)
 
-
 Both models had a very low FP rate.
 Perceptron (PRC) chosen over Multi layer Neural Network (NN) for this version for a Higher True Positive Rate.
 
-Question 1: The prediction of each model seems to vary every time it runs even when all the features/parameters remain unchanged.
-Question 2: Canny Edge Detection was used for this round. A plane's wings: Diagonal lines with curves. Straight lines of a aircraft body. Are they well recognized now? I am interested in trying out other image processing methods. 
+Question 1: The prediction of each model seems to vary every time it runs even when all the features/parameters remain unchanged. Why?
+Question 2: Canny Edge Detection was used for this round. A plane's wings have diagonal lines with curves and an aircraft body has long & straight-ish lines. Are they well recognized now in the feature? I am interested in trying out other image processing methods. 
 
 1. Overall Image treatment: <br>
 Canny edge detection was used this time. Played with sigma, low_threshold, high_threshold
