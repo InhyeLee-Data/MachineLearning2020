@@ -15,5 +15,6 @@ A combination of lower alpha and a different penalty was used
 A combination of lower alpha, hidden_layer_sizes lowered from 100 to 75, solver changed to 'lbfgs'
 
 Question 1: The prediction of each model seems to vary every time it runs even when all the features/parameters remain unchanged. Why? <br>
-Question 2: Canny Edge Detection was used for this round. A plane's wings have diagonal lines with curves and an aircraft body has long & straight-ish lines. Are they well recognized in the feature now? I am interested in trying out other image processing methods. 
+Question 2: Canny Edge Detection was used for this round. A plane's wings have diagonal lines with curves and an aircraft body has long & straight-ish lines. Are they well recognized in the feature now? I am interested in trying out other image processing methods. <br>
+Question 3: There are only 21 airplanes (Positives) in the testing set (1690 pictures). Therefore, missing one picture of an airplane greatly affects the TPR = TP / (TP + FN). Would including more pictures of airplanes in this set change the prediction? 
 
