@@ -1,4 +1,4 @@
-### Airplane Image Classification Log
+### Airplane Image Classification Supervised Learning Log
 
 #### V1 (Apr 2)
 
