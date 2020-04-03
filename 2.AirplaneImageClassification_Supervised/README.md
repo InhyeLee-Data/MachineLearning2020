@@ -1,10 +1,10 @@
-<b>ML Project #2</b> : Airplane Image Classification
+Airplane Image Classification Log
 
 <b>V1(Apr 2)</b>
 
 
 Both models had a very low FP rate.
-PRC chosen over NN for this version for a Higher True Positive Rate.
+Perceptron (PRC) chosen over Multi layer Neural Network (NN) for this version for a Higher True Positive Rate.
 
 Question 1: The prediction of each model seems to vary every time it runs even when all the features/parameters remain unchanged.
 Question 2: Canny Edge Detection was used for this round. 
