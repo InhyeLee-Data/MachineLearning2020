@@ -1,8 +1,8 @@
 ### Museum Image Clustering via K-means Progress Log
 
+## V1 (April 19 2020)
 
-V1 (April 19 2020)
-1. I created clusters based on the following six variables in the dataset.
+1. I created clusters based on the following six variables in the dataset.<br>
 - has_text: image contains text?
 - represenation - True if very realistic
 - va: various degree bet. black & white
@@ -10,10 +10,11 @@ V1 (April 19 2020)
 - co: color (hue) 
 - or: orientation, ranging from the vertical to the horizontal direction 
 
-2. I chose 9 clusters, based on the elbow plot result and the silloutte analysis. 
-![v1 elbow plot](elbow%20plot_v1.png)
+2. I chose 9 clusters, based on the elbow plot result and the silloutte analysis. <br>
+![v1 elbow plot](elbow%20plot_v1.png)<br>
+![silloutte](silloutte_v1.png)<br>
 
-3. Here are the curated "themes" I found in each of 9 clusters. 
+3. Here are the curated "themes" I found in each of 9 clusters. <br>
 My personal favorite is the 8th cluster (Cluster 7), which I named the "Deformation of squares". Here, the collected artworks seem to explore what we can recognize as "squares" and the visual elements that shape it.  
 - Cluster 0: Bold Exploration of spatial dimension
 - Cluster 1: Shades of the human mindset
@@ -24,3 +25,13 @@ My personal favorite is the 8th cluster (Cluster 7), which I named the "Deformat
 - Cluster 6: Looking for the warmth 
 - Cluster 7: Deformation of squares
 - Cluster 8: Segmentation
+
+4. Here are some images from the Cluster 7. <br>
+![square](square_img1.jpg)<br>
+![square](square_img2.jpg)<br>
+![square](square_img3.jpg)<br>
+![square](square_img4.jpg)<br>
+![square](square_img5.jpg)<br>
+![square](square_img6.jpg)<br>
+![square](square_img7.jpg)<br>
+
