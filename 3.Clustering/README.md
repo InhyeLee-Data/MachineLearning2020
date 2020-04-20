@@ -25,7 +25,7 @@
 - Cluster 7: Deconstructing squares
 - Cluster 8: Segmentation
 
-4. Among the 9 clusters, my personal favorite is the 8th cluster (Cluster 7), which I named the "Deconstructing squares". Here, the collected artworks seem to explore what we can recognize as "squares" and expose the viewers visual elements that geometrically constitute an image of a square.  
+4. Among the 9 clusters, my personal favorite is the 8th cluster (Cluster 7), which I named "Deconstructing squares". Here, the collected artworks seem to explore what we can recognize as "squares" and expose the viewers visual elements that geometrically constitute an image of a square.  
 Here are some images from the Cluster 7. <br>
 ![square](square_img1.jpg)<br>
 ![square](square_img2.jpg)<br>
