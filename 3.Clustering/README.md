@@ -1,4 +1,4 @@
-Museum Image Clustering via K-means
+### Museum Image Clustering via K-means Progress Log
 
 
 V1 (April 19 2020)
