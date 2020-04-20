@@ -1,5 +1,7 @@
 Museum Image Clustering via K-means
 
+
+V1 (April 19 2020)
 1. I created clusters based on the following six variables in the dataset.
 - has_text: image contains text?
 - represenation - True if very realistic
@@ -9,6 +11,7 @@ Museum Image Clustering via K-means
 - or: orientation, ranging from the vertical to the horizontal direction 
 
 2. I chose 9 clusters, based on the elbow plot result and the silloutte analysis. 
+![v1 elbow plot](elbow%20plot_v1.png)
 
 3. Here are the curated "themes" I found in each of 9 clusters. 
 My personal favorite is the 8th cluster (Cluster 7), which I named the "Deformation of squares". Here, the collected artworks seem to explore what we can recognize as "squares" and the visual elements that shape it.  
