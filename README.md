@@ -4,7 +4,7 @@
 
 - [1. IMDB Movie Review - Sentiment Analysis](/1.MovieReview_NLP_Supervised) <br>
 - [2. Airplanes - Image Classification](/2.AirplaneImageClassification_Supervised) <br>
-- 3 TBD
+- [3. Image Clustering -Unsupervised / K-means](/3.Clustering) <br>
 
 
 <br><br><br><br><br>
