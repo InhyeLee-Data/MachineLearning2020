@@ -2,7 +2,7 @@
 
 #### V1 (April 19 2020)
 
-1. I created clusters based on the following six variables in the dataset.<br>
+1. I created clusters based on the following six metadata variables in the dataset.<br>
 - has_text: image contains text?
 - represenation - True if very realistic
 - va: various degree bet. black & white
