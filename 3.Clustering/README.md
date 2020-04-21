@@ -2,10 +2,11 @@
 
 #### V1 (April 19 2020)
 
-1. I created clusters based on the following six metadata variables in the dataset.<br>
+1. For this round, I was interested in finding out whether a few of Bertin's retinal variables (values, texture, color and orientation) and two expressions (Use of text or Not, Very realistic representation or not) can be used to find meaningful clusters in the given image-set. Initially, I included "kinetic" but realized that it was a boolean value and that only a handful of artworks were associated with this variable, so I ended up not using it. For the next round, if possible, I'd like to see if I could put more thoughts into choosing variables that can address the spatial "movement" of visual elements. <br>
+For this version, following six metadata variables were included from the dataset. 
 - has_text: image contains text?
 - represenation - True if very realistic
-- va: various degree bet. black & white
+- va: value. various degree bet. black & white
 - te: texture 
 - co: color (hue) 
 - or: orientation, ranging from the vertical to the horizontal direction 
