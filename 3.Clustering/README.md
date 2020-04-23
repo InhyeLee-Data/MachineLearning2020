@@ -2,7 +2,7 @@
 
 #### V1 (April 19 2020)
 
-1. For this round, I was interested in finding out whether a few of Bertin's retinal variables (values, texture, color and orientation) and two expressions (Use of text or not, Very realistic representation or not) can be used to find meaningful clusters in the given image-set. Initially, I included "kinetic" but realized that it was a boolean value and that only a handful of artworks were associated with this variable, so I ended up not using it. For the next round, if possible, I'd like to see if I could put more thoughts into choosing variables that can address the spatial "movement" of visual elements. <br>
+1. For this round, I was interested in finding out whether a few of Bertin's retinal variables (values, texture, color and orientation) and two expressions (Use of text or not, Very realistic representation or not) can be used to find meaningful clusters in the given image-set. Initially, I included "kinetic" as for the variables but realized that it was a boolean value and that only a handful of artworks were associated with this variable, so I ended up not using it. I also did not add any other features via image recognition. For the next round, if possible, I'd like to see if I could put more thoughts into choosing variables that can address the spatial "movement" of visual elements. <br>
 For this version, following six metadata variables were included from the dataset. 
 - has_text: image contains text?
 - represenation - True if very realistic
@@ -11,9 +11,11 @@ For this version, following six metadata variables were included from the datase
 - co: color (hue) 
 - or: orientation, ranging from the vertical to the horizontal direction 
 
-2. I chose 9 clusters, based on the elbow plot result and the silloutte analysis. <br>
+2. I chose 9 clusters, based on the elbow plot result and the sillhoutte analysis. <br>
+From the elbow plot, it seemed evident the "K" could be found somewhere between 5 and 15.
 ![v1 elbow plot](elbow%20plot_v1.png)<br>
-![silloutte](silloutte_v1.png)<br>
+The sillhoutte analysis was run for a few "K" values within this range and K = 9 was selected based on the average sillhoutte scores. Each cluster seemed reasonably coherent, though Cluster 3 & Cluster 8 showed a little bit of outliers. 
+![sillhoutte](silloutte_v1.png)<br>
 
 3. Here are the curated "themes" I found in each of 9 clusters. <br>
 - Cluster 0: Bold exploration of spatial dimension
