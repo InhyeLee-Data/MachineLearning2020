@@ -1,6 +1,6 @@
 ## IMDB Movie Review NLP Supervised Learning Log
 
-### V2 (Final Version. May 1 2020)
+### V2 ([Final Version](moviereviews_Inhye_RESUBMISSION_v1.ipynb). May 1 2020)
 
 #### Sentiment Analysis: IMDB dataset over Toxic Comments
 I chose the IMDB dataset in this Natural Language Processing Sentiment Analysis assignment because I wanted to spend time with the contents of storytelling rather than real life-based toxic comments.  
@@ -30,9 +30,13 @@ In my case, the size of n-features in the vectorizer proved to be the most impor
 In the previous submission, the True Positive rate was almost indiscernible for both LGS and RDG and I chose RDG for its lower FP rate. This time, I chose LGS for its improved True positive rate with the testing set (0.859 -> 0.89), though the False Positive rate increased a tad bit as well (0.117->0.12). RDG still showed the lowest False Positive rate, on the other hand.   
 
 #### Training Set Plot
+![Plot](ML1_Fin_TrainingSet.png)
+
+#### Test Set Plot
+![Plot](ML1_Fin_TestSet.png)
 
 
-### V1 (Resubmission. March 21 2020)
+### V1 ([Resubmission](moviereviews_inhye_submission_v1.ipynb). March 21 2020)
 - fit_transform (training) vs transform (testing) added
 - fitted_transformations array added
 - Hashing Vectorizer (n_features increased to 2 ** 21)
