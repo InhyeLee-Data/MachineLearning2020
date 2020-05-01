@@ -1,6 +1,6 @@
 ### Airplane Image Classification Supervised Learning Log
 
-#### V1 ([Notebook](Inhye_planeimages_V1_Submission.ipynb), [csv](), Apr 2 2020)
+#### V1 ([Notebook](Inhye_planeimages_V1_Submission.ipynb), [csv](airplane_submission_V1_re.csv), Apr 2 2020)
 
 Both models had a very low FP rate.
 Perceptron (PRC) chosen over Multi layer Neural Network (NN) for this version for a Higher True Positive Rate.
