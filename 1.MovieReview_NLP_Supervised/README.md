@@ -43,7 +43,7 @@ In the previous submission, the True Positive rate was almost indiscernible for 
 ![Plot](ML1_Fin_TestSet.png)
 
 
-### V1 ([Resubmission](moviereviews_inhye_submission_v1.ipynb). March 21 2020)
+### V1 ([Resubmission](moviereviews_inhye_submission_v1.ipynb), [csv](moviereviews_inhye_RESUBMISSION_v1.csv). March 21 2020)
 - fit_transform (training) vs transform (testing) added
 - fitted_transformations array added
 - Hashing Vectorizer (n_features increased to 2 ** 21)
