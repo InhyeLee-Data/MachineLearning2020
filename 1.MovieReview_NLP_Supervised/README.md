@@ -15,19 +15,17 @@ One aspect I worked on was trying to find the optimal number for “n-features�
 * One thing I noticed is that Ridge Regression took the longest to provide the model fit. 
 
 #### Features
-I added two new features. After hearing about the fellow coursetakers’ method of using exclamation and question marks, I came to think about the count of special characters myself. I included question marks (>2) and interrobangs (?! or !?) count as part of the feature. I didn’t count multi exclamation (!!), thinking that it could be used for both positive and negative comments. 
+I added two new features. After hearing about the fellow coursetakers’ method of using exclamation and question marks, I came to think about the count of special characters myself. I included question marks (>=2) and interrobangs (?! or !?) count as part of the feature. I didn’t count multi exclamation (!!), thinking that it could be used for both positive and negative comments. 
 
-Same as the previous submission, after counting these, I did a little bit of text cleaning up, by getting rid of punctuations, any html markups (text inside <>) and common english stop words and movie-specific words to reduce the size of the text. After this process, I counted the remaining words from each comment.
+In the same way as for the previous submission, after counting these, I did a little bit of text clean-up, by getting rid of punctuations, any html markups (text inside <>) and common english stop words and generic movie-specific words to reduce the size of the data. After this process, I counted the remaining words from each comment.
 
-Though it seemed to have a small effect, I’m not entirely sure how significantly the performance improved due to these features.
-
-In my case, the size of n-features in the vectorizer proved to be the most important factor to benefit the performance. 
+Though they seemed to have small effects, I’m not entirely sure how significantly the performance improved due to these features. In my case, the size of n-features in the vectorizer proved to be the most important factor to benefit the performance. 
 
 #### Alpha
-“Alpha” value made a bit of contribution to improve the quality of the prediction. In the case of the  Logistic Regression model (LGS), which I chose for my final submission, the True Positive prediction improved after I lowered the alpha to 0.5 (previously set to 10). For the Ridge Regression model (RDG), alpha was lowered to 1.5 (previously set to 3), and it also made a very minor improvement for the model. 
+“Alpha” value made a bit of contribution to improve the quality of the prediction for individual models. In the case of the  Logistic Regression model (LGS), which I chose for my final submission, the True Positive prediction improved after I lowered the alpha to 0.5 (previously set to 10). For the Ridge Regression model (RDG), alpha was lowered to 1.5 (previously set to 3), and made a minor improvement for the model. 
 
 #### Final Choice
-In the previous submission, the True Positive rate was almost indiscernible for both LGS and RDG and I chose RDG for its lower FP rate. This time, I chose LGS for its improved True positive rate with the testing set (0.859 -> 0.89), though the False Positive rate increased a tad bit as well (0.117->0.12). RDG still showed the lowest False Positive rate, on the other hand.   
+In the previous submission, the True Positive rate was almost indiscernible for both LGS and RDG so I went with RDG for its lower FP rate. This time, I chose LGS for its improved True Positive rate with the testing set (0.859 -> 0.89), though the False Positive rate increased a tad bit as well (0.117->0.12). RDG still showed the lowest False Positive rate among all models, on the other hand.   
 
 #### Training Set Plot
 ![Plot](ML1_Fin_TrainingSet.png)
