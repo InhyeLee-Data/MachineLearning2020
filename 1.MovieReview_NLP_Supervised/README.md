@@ -3,7 +3,7 @@
 ### V2 ([Final Version](moviereviews_Inhye_RESUBMISSION_v1.ipynb). May 1 2020)
 
 #### Sentiment Analysis: IMDB dataset over Toxic Comments
-I chose the IMDB dataset in this Natural Language Processing Sentiment Analysis assignment because I wanted to spend time with the contents of storytelling rather than real life-based toxic comments.  
+I chose the IMDB dataset for the Natural Language Processing Sentiment Analysis because I wanted to spend time with the contents within storytelling rather than real life-based toxic comments.  
 
 ####  Vectorizer
 According to sources including [this](https://kavita-ganesan.com/hashingvectorizer-vs-countvectorizer/#.XquCxhNKh26), there are a few differences between Hashing Vectorizer and Count Vectorizer.  The core strength of Hashing Vectorizer is that it excels in dealing with a large set of textual data, as it doesn't have to store individual vocabulary in memory (=>faster processing). This very nature also works as a weakness: you can not retrieve the actual token, for instance, for keyword extraction. 
