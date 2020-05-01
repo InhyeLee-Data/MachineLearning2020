@@ -17,11 +17,18 @@ Two Things I noticed:
 * Random Forest didn't perform so well last time, but with this n-features, it really proved to be a wrong model, predicting most comments as positive. 
 
 #### Features
-I added two new features. After hearing about the fellow coursetakers’ method of using exclamation and question marks, I came to think about the count of special characters myself. I included question marks (>=2) and interrobangs (?! or !?) count as part of the feature. I didn’t count multi exclamation (!!), thinking that it could be used for both positive and negative comments. 
+After hearing about fellow coursetakers’ method of counting exclamation and question marks, I came to think about the count of special characters as well. I included question marks (>=2) and interrobangs (?! or !?) count as part of the feature. I didn’t count multi exclamation (!!), thinking that it could be used for both positive and negative comments. 
 
-In the same way as for the previous submission, after counting these, I did a little bit of text clean-up, by getting rid of punctuations, any html markups (text inside <>) and common english stop words and generic movie-specific words to reduce the size of the data. After this process, I counted the remaining words from each comment. I did not include word count or punctuation count in the features
+After including them, I did a little bit of text clean-up in the same way as for the previous submission. 
+I got rid of the following to reduce the size of the data.
+- punctuations
+- html markups (text inside < >) 
+- common english stop words
+- generic movie-specific words 
+After this process, I counted the remaining words from each comment. 
+I did not include word count or punctuation count in the features.
 
-Though they seemed to have small effects, I’m not entirely sure how significantly the performance improved due to these features. In my case, the size of n-features in the vectorizer proved to be the most important factor to benefit the performance. 
+Though they seemed to have small effects, I’m not entirely sure how significantly the performance improved due to these added features. In my case, the size of n-features in the vectorizer was the most important factor to benefit the model performance. 
 
 #### Alpha => Model Normalization
 “Alpha” value made a bit of contribution to improve the quality of the prediction for individual models. In the case of the  Logistic Regression model (LGS), which I chose for my final submission, the True Positive prediction improved after I lowered the alpha to 0.5 (previously set to 10). For the Ridge Regression model (RDG), alpha was lowered to 1.5 (previously set to 3), and it made a minor improvement for the model. 
