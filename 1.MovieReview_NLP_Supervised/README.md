@@ -14,7 +14,7 @@ One aspect I worked on was trying to find the optimal number for “n-features�
 
 Two Things I noticed:
 * The Ridge Regression took the longest to provide the model fit under this setting. 
-* Random Forest didn't perform so well last time, but with this n-features, it really proved to be a wrong model. guessing most inputs as positive comments. 
+* Random Forest didn't perform so well last time, but with this n-features, it really proved to be a wrong model, predicting most comments as positive. 
 
 #### Features
 I added two new features. After hearing about the fellow coursetakers’ method of using exclamation and question marks, I came to think about the count of special characters myself. I included question marks (>=2) and interrobangs (?! or !?) count as part of the feature. I didn’t count multi exclamation (!!), thinking that it could be used for both positive and negative comments. 
