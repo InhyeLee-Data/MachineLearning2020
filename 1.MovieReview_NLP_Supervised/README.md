@@ -23,11 +23,11 @@ In the same way as for the previous submission, after counting these, I did a li
 
 Though they seemed to have small effects, I’m not entirely sure how significantly the performance improved due to these features. In my case, the size of n-features in the vectorizer proved to be the most important factor to benefit the performance. 
 
-#### Alpha
+#### Alpha => Model Normalization
 “Alpha” value made a bit of contribution to improve the quality of the prediction for individual models. In the case of the  Logistic Regression model (LGS), which I chose for my final submission, the True Positive prediction improved after I lowered the alpha to 0.5 (previously set to 10). For the Ridge Regression model (RDG), alpha was lowered to 1.5 (previously set to 3), and it made a minor improvement for the model. 
 
 #### Final Choice
-In the previous submission, the True Positive rate was almost indiscernible for both LGS and RDG so I went with RDG for its lower FP rate. This time, I chose LGS for its improved True Positive rate with the testing set (0.859 -> 0.89), though the False Positive rate increased a tad bit as well (0.117->0.12). RDG still showed the lowest False Positive rate among all models, on the other hand.   
+In the previous submission, the True Positive rate was almost indiscernible for both LGS and RDG so I went with RDG for its lower FP rate. This time, I chose LGS for its improved True Positive rate with the testing set (0.859 -> 0.89), though the False Positive rate increased a tad bit as well (0.117->0.12). RDG still showed the lowest False Positive rate among all models, on the other hand. I am curious to see the model performance with the new unseen data. 
 
 #### Training Set Plot
 ![Plot](ML1_Fin_TrainingSet.png)
