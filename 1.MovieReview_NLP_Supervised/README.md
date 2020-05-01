@@ -19,7 +19,7 @@ Two Things I noticed:
 #### Features
 After hearing about fellow coursetakers’ method of counting exclamation and question marks, I came to think about the count of special characters as well. I included question marks (>=2) and interrobangs (?! or !?) count as part of the feature. I didn’t count multi exclamation (!!), thinking that it could be used for both positive and negative comments. 
 
-After including them, I did a little bit of text clean-up in the same way as for the previous submission. 
+After including them, I did a little bit of text clean-up the same way as in the previous submission. 
 I got rid of the following to reduce the size of the data.
 - punctuations
 - html markups (text inside < >) 
