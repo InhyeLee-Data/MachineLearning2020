@@ -12,7 +12,9 @@ The IMDB dataset had 25,000 entries. By an ML standard, it may not be a very lar
 
 One aspect I worked on was trying to find the optimal number for “n-features”. In the previous submission, increasing  “n_features” of Hashing Vectorizer resulted in a meaningful boost so I went a little further with it this time. When n-features increased from 2 ** 21 to 2 ** 25, I saw another noticeable performance gain. I ended up increasing it up to  2 ** 27. The computer fan activated for a while (I think it ran much shorter than 1 minute to do the calculation) but it was manageable and did not kill my machine.
 
-* One thing I noticed is that Ridge Regression took the longest to provide the model fit under this setting. 
+Two Things I noticed:
+* The Ridge Regression took the longest to provide the model fit under this setting. 
+* Random Forest didn't perform so well last time, but with this n-features, it really proved to be a wrong model. guessing most inputs as positive comments. 
 
 #### Features
 I added two new features. After hearing about the fellow coursetakers’ method of using exclamation and question marks, I came to think about the count of special characters myself. I included question marks (>=2) and interrobangs (?! or !?) count as part of the feature. I didn’t count multi exclamation (!!), thinking that it could be used for both positive and negative comments. 
