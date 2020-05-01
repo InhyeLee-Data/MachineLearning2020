@@ -1,6 +1,6 @@
 ## IMDB Movie Review NLP Supervised Learning Log
 
-### V2 ([Final Version](moviereviews_Inhye_RESUBMISSION_v1.ipynb). May 1 2020)
+### V2 ([Final Version](moviereviews_v2_Final.ipynb). May 1 2020)
 
 #### Sentiment Analysis: IMDB dataset
 I chose the IMDB dataset for the Natural Language Processing Sentiment Analysis because I wanted to spend time with the contents within storytelling rather than real life-based toxic comments.  
