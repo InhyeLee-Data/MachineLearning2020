@@ -20,7 +20,7 @@ My_random_seed was switched from 99 to 30, to see if it makes any difference in 
 #### Image Detection 
 For the previous submission, I used a multi-stage edge detector, [Canny filter](https://scikit-image.org/docs/dev/auto_examples/edges/plot_canny.html). The previous model's performance improved upon changing a few attributes of this method but the results didn't seem very optimal. I decided to switch over to [Histogram of Oriented Gradients](https://scikit-image.org/docs/dev/auto_examples/features_detection/plot_hog.html), that a few coursetakers mentioned during the class.
 
-With the default setting of HOG, the model performance was very poor.  A few parameters were set to change from default, and contributed to the improvement of the model. 
+With the default setting of HOG, the model performance was very poor.  A few parameters changed from default, and contributed to the improvement of the model. At one point, my multi-layer perceptron model was taking forever to process. I changed a few parameters of HOG and max_iter & learning_rate of the model, and I also changed the solver back to lbfgs, expecting a faster convergence. Then, the model seemed to start working better. 
 
 I was not able to display the image using HOG at this time. I referred to the display method in scikit’s HOG description page, which is using data.astronaut(). In this [test](HOG Test.ipynb) notebook, it gives me an error when I’m trying to display the airplane image or any other random image file (_cat.jpeg which I downloaded from the web), while the astronaut appears okay.
 
