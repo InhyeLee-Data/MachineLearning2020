@@ -30,7 +30,7 @@ I did not include word count or punctuation count in the features.
 
 Though they seemed to have small effects, I’m not entirely sure how significantly the performance improved due to these added features. In my case, the size of n-features in the vectorizer was the most important factor to benefit the model performance. 
 
-#### Alpha => Model Regulization
+#### Alpha => Model Regularization
 “Alpha” value made a bit of contribution to improve the quality of the prediction for individual models. In the case of the  Logistic Regression model (LGS), which I chose for my final submission, the True Positive prediction improved after I lowered the alpha to 0.5 (previously set to 10). For the Ridge Regression model (RDG), alpha was lowered to 1.5 (previously set to 3), and it made a minor improvement for the model. 
 
 #### Final Choice
