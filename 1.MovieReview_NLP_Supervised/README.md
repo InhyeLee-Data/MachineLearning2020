@@ -1,4 +1,4 @@
-## IMDB Movie Review NLP Supervised Learning Log
+## IMDB Movie Review NLP Supervised Learning: Progress Log
 
 ### V2 ([Final NoteBook](moviereviews_v2_Final.ipynb), [csv](moviereviews_submission_final.csv), May 1 2020)
 
