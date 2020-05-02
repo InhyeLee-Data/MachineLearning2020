@@ -20,11 +20,13 @@ Two Things I noticed:
 After hearing about fellow coursetakers’ method of counting exclamation and question marks, I came to think about the count of special characters as well. I included question marks (>=2) and interrobangs (?! or !?) count as part of the feature. I didn’t count multi exclamation (!!), thinking that it could be used for both positive and negative comments. 
 
 After including them, I did a little bit of text clean-up the same way as in the previous submission. 
+
 I got rid of the following to reduce the size of the data.
 - punctuations
 - html markups (text inside < >) 
 - common english stop words
 - generic movie-specific words 
+
 After this process, I counted the remaining words from each comment. 
 I did not include word count or punctuation count in the features.
 
