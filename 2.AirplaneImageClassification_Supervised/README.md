@@ -4,9 +4,9 @@
 
 #### Attempts to address issues which occurred in the previous model
 In the previous submission, slightly different results were drawn upon running the same model with exact same settings. One suggestion from Aaron to tackle this issue (in order to get to a gradient descent, which my model may not have been doing ) was 
-Using a higher number for max_iter: Previously set to 1000 for both models.
-Trying a larger learning rate: (Reference: Learning rate is between 0 and 1, larger values make the weight changes more volatile. By default, it is set to 0.001 in both models). 
-Or, the combination of the two.
+- Using a higher number for max_iter: Previously set to 1000 for both models.
+- Trying a larger learning rate: (Reference: Learning rate is between 0 and 1, larger values make the weight changes more volatile. By default, it is set to 0.001 in both models). 
+- Or, the combination of the two.
 
 A few sets of different values were tried, but I still seem to have the same issue.
 - PRC: Learning_rate seems to be set as constant, and you can’t change it. max_iter: 3000
