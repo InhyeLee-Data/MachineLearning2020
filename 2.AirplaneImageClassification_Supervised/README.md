@@ -31,7 +31,7 @@ Multichannel was set to True so I’m a little unclear what causes this error.
 
 #### Final Choice
 Same as the last time, Perceptron performed better for me. 
-Here is the comparison plot. 
+Here is the comparison plot in the final model. 
 
 ![plot](ML2_Fin_Plot.png)
 
