@@ -1,4 +1,4 @@
-## Airplane Image Classification Supervised Learning Log
+## Airplane Image Classification Supervised Learning Progress Log
 
 ### V1 ([Notebook](Inhye_planeimages_V1_Submission.ipynb), [csv](airplane_submission_V1_re.csv), Apr 2 2020)
 
