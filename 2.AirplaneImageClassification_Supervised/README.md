@@ -18,9 +18,9 @@ Maybe the issue comes from the small number of airplane images, which creates th
 My_random_seed was switched from 99 to 30, to see if it makes any difference in the train - test split, as it is the place where the number of airplane images is decided for the dataset. Now the test set has 26 airplanes images out of 101 total and it seems to be a good factor for my model. 
 
 #### Image Detection 
-For the previous submission, I used a multi-stage edge detector, [Canny filter](https://scikit-image.org/docs/dev/auto_examples/edges/plot_canny.html). The model performance improved upon changing a few attributes of this method but the results didn't seem very optimal. I decided to switch over to an object detection method [Histogram of Oriented Gradients](https://scikit-image.org/docs/dev/auto_examples/features_detection/plot_hog.html), that a few coursetakers mentioned during the class.
+For the previous submission, I used a multi-stage edge detector, [Canny filter](https://scikit-image.org/docs/dev/auto_examples/edges/plot_canny.html). The previous model's performance improved upon changing a few attributes of this method but the results didn't seem very optimal. I decided to switch over to [Histogram of Oriented Gradients](https://scikit-image.org/docs/dev/auto_examples/features_detection/plot_hog.html), that a few coursetakers mentioned during the class.
 
-With the default setting, the performance was very poor with this image filter.  A few changes were made to the parameters of this method, and contributed to the improvement. 
+With the default setting of HOG, the model performance was very poor.  A few parameters were set to change from default, and contributed to the improvement of the model. 
 
 I was not able to display the image using HOG at this time. I referred to the display method in scikit’s HOG description page, which is using data.astronaut(). In this [test](HOG Test.ipynb) notebook, it gives me an error when I’m trying to display the airplane image or any other random image file (_cat.jpeg which I downloaded from the web), while the astronaut appears okay.
 
