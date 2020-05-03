@@ -13,9 +13,9 @@ For this version, following six metadata variables were included from the datase
 
 2. I chose 9 clusters, based on the elbow plot result and the sillhoutte analysis. <br>
 From the elbow plot, it seemed evident the "K" could be found somewhere between 5 and 15.
-![v1 elbow plot](elbow%20plot_v1.png)<br>
+![v1 elbow plot](v1-images/elbow%20plot_v1.png)<br>
 The sillhoutte analysis was run for a few "K" values within this range and K = 9 was selected based on the average sillhoutte scores. Each cluster seemed reasonably coherent, though Cluster 3 & Cluster 8 showed a little bit of outliers. 
-![sillhoutte](silloutte_v1.png)<br>
+![sillhoutte](v1-images/silloutte_v1.png)<br>
 
 3. Here are the curated "themes" I found in each of 9 clusters. <br>
 - Cluster 0: Bold exploration of spatial dimension
@@ -31,11 +31,11 @@ The sillhoutte analysis was run for a few "K" values within this range and K = 9
 4. Among the 9 clusters, my personal favorite is the 8th cluster (Cluster 7), which I named "Deconstructing squares". Here, the collected artworks seem to explore what we can recognize as "squares". The collection exposes viewers compositions that geometrically constitute a square as a whole or elements that can be seen as a deconstructed, deformed or repetitive image of a square.  
 
 Below are some images from the Cluster 7.  For other clusters, please take a look at the image display at the bottom of the notebook [page](Inhye_Cluster_Submission_v1.ipynb). <br>
-![square](square_img1.jpg)<br>
-![square](square_img2.jpg)<br>
-![square](square_img3.jpg)<br>
-![square](square_img4.jpg)<br>
-![square](square_img5.jpg)<br>
-![square](square_img6.jpg)<br>
-![square](square_img7.jpg)<br>
+![square](v1-images/square_img1.jpg)<br>
+![square](v1-images/square_img2.jpg)<br>
+![square](v1-images/square_img3.jpg)<br>
+![square](v1-images/square_img4.jpg)<br>
+![square](v1-images/square_img5.jpg)<br>
+![square](v1-images/square_img6.jpg)<br>
+![square](v1-images/square_img7.jpg)<br>
 
