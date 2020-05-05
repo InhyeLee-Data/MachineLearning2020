@@ -41,6 +41,18 @@ Cluster 5: Division of a space
 
 I’ll share some images from Cluster 1(Lump, Lump, Lump)  and Cluster 4 (Movement), which I found interesting. For all the other clusters, please look at the bottom part of the attached [notebook page] ()
 
+- Cluster 1 -
+![Lump](final-images/Cluster1_2.jpeg)
+![Lump](final-images/Cluster1_3.jpeg)
+![Lump](final-images/Cluster1_4.jpeg)
+![Lump](final-images/Cluster1_5.jpeg)
+![Lump](final-images/Cluster1_6.jpeg)
+![Lump](final-images/Cluster1_7.jpeg)
+![Lump](final-images/Cluster1_8.jpeg)
+![Lump](final-images/Cluster1_9.jpeg)
+![Lump](final-images/Cluster1_10.jpeg)
+![Lump](final-images/Cluster1_11.jpeg)
+
 #### Human Tendency
 Analyzing each cluster, I noticed my human tendency to try to find a pattern. For example, once I saw a “lump” appearing in a series of artworks, I hoped that this trend continued throughout the cluster and might have disregarded what did not fit into the definition of “lump”. 
 
