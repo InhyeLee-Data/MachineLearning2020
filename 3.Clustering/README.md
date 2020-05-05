@@ -1,7 +1,7 @@
 ## Museum Image Curation via K-means Clustering: Progress Log 
 
 
-### V2 ([Final Notebook](), May 4, 2020) 
+### V2 ([Final Notebook](Cluster_Submission_Final.ipynb), May 4, 2020) 
 
 #### Features selected from the metadata
 
@@ -41,36 +41,36 @@ Cluster 5: Division of a space
 
 I’ll share some images from Cluster 1  and Cluster 4, which I found interesting. For all the other clusters, please look at the bottom part of the attached [notebook page] ()
 
-Cluster 1 (Lump, Lump, Lump)
-![Lump](final-images/Cluster1_2.jpeg)
-![Lump](final-images/Cluster1_3.jpeg)
-![Lump](final-images/Cluster1_4.jpeg)
-![Lump](final-images/Cluster1_5.jpeg)
-![Lump](final-images/Cluster1_6.jpeg)
-![Lump](final-images/Cluster1_7.jpeg)
-![Lump](final-images/Cluster1_8.jpeg)
-![Lump](final-images/Cluster1_9.jpeg)
-![Lump](final-images/Cluster1_10.jpeg)
-![Lump](final-images/Cluster1_11.jpeg)
+Cluster 1 (Lump, Lump, Lump)<br>
+![Lump](final-images/Cluster1_2.jpeg)<br>
+![Lump](final-images/Cluster1_3.jpeg)<br>
+![Lump](final-images/Cluster1_4.jpeg)<br>
+![Lump](final-images/Cluster1_5.jpeg)<br>
+![Lump](final-images/Cluster1_6.jpeg)<br>
+![Lump](final-images/Cluster1_7.jpeg)<br>
+![Lump](final-images/Cluster1_8.jpeg)<br>
+![Lump](final-images/Cluster1_9.jpeg)<br>
+![Lump](final-images/Cluster1_10.jpeg)<br>
+![Lump](final-images/Cluster1_11.jpeg)<br>
 
-Cluster 4 (Movement)
-![Movement](final-images/Cluster4_1.jpeg)
-![Movement](final-images/Cluster4_2.jpeg)
-![Movement](final-images/Cluster4_3.jpeg)
-![Movement](final-images/Cluster4_4.jpeg)
-![Movement](final-images/Cluster4_5.jpeg)
-![Movement](final-images/Cluster4_6.jpeg)
-![Movement](final-images/Cluster4_7.jpeg)
-![Movement](final-images/Cluster4_8.jpeg)
-![Movement](final-images/Cluster4_9.jpeg)
-![Movement](final-images/Cluster4_10.jpeg)
+Cluster 4 (Movement)<br>
+![Movement](final-images/Cluster4_1.jpeg)<br>
+![Movement](final-images/Cluster4_2.jpeg)<br>
+![Movement](final-images/Cluster4_3.jpeg)<br>
+![Movement](final-images/Cluster4_4.jpeg)<br>
+![Movement](final-images/Cluster4_5.jpeg)<br>
+![Movement](final-images/Cluster4_6.jpeg)<br>
+![Movement](final-images/Cluster4_7.jpeg)<br>
+![Movement](final-images/Cluster4_8.jpeg)<br>
+![Movement](final-images/Cluster4_9.jpeg)<br>
+![Movement](final-images/Cluster4_10.jpeg)<br>
 
 
 #### Human Tendency
 Analyzing each cluster, I noticed my human tendency to try to find a pattern. For example, once I saw a “lump” appearing in a series of artworks, I hoped that this trend continued throughout the cluster and might have disregarded what did not fit into the definition of “lump”. 
 
 #### Final Words
-For this project, I created two models ([V1](), [Final]()), and each model presented at least a couple of quite interesting clusters to me. I thought that by using multiple models, I could find different groups that could be meaningful as curated artworks. 
+For this project, I created two models ([V1](Inhye_Cluster_Submission_v1.ipynb), [Final](Cluster_Submission_Final.ipynb)), and each model presented at least a couple of quite interesting clusters to me. I thought that by using multiple models, I could find different groups that could be meaningful as curated artworks. 
 
 Clustering is a way to find a pattern amongst a group of things. However, humans are great pattern-recognizers and decision makers. In that sense, ML clustering can be an additional aid for us to discover patterns within the artwork. The final “curatorial” decision will always have to be made by humans. (I hope)
 
