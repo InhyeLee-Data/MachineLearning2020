@@ -39,9 +39,9 @@ Cluster 3: Bold and Mixed
 Cluster 4: Movement (especially, with the diagonal lines) 
 Cluster 5: Division of a space
 
-I’ll share some images from Cluster 1(Lump, Lump, Lump)  and Cluster 4 (Movement), which I found interesting. For all the other clusters, please look at the bottom part of the attached [notebook page] ()
+I’ll share some images from Cluster 1  and Cluster 4, which I found interesting. For all the other clusters, please look at the bottom part of the attached [notebook page] ()
 
-- Cluster 1 -
+Cluster 1 (Lump, Lump, Lump)
 ![Lump](final-images/Cluster1_2.jpeg)
 ![Lump](final-images/Cluster1_3.jpeg)
 ![Lump](final-images/Cluster1_4.jpeg)
@@ -52,6 +52,19 @@ I’ll share some images from Cluster 1(Lump, Lump, Lump)  and Cluster 4 (Moveme
 ![Lump](final-images/Cluster1_9.jpeg)
 ![Lump](final-images/Cluster1_10.jpeg)
 ![Lump](final-images/Cluster1_11.jpeg)
+
+Cluster 4 (Movement)
+![Movement](final-images/Cluster4_1.jpeg)
+![Movement](final-images/Cluster4_2.jpeg)
+![Movement](final-images/Cluster4_3.jpeg)
+![Movement](final-images/Cluster4_4.jpeg)
+![Movement](final-images/Cluster4_5.jpeg)
+![Movement](final-images/Cluster4_6.jpeg)
+![Movement](final-images/Cluster4_7.jpeg)
+![Movement](final-images/Cluster4_8.jpeg)
+![Movement](final-images/Cluster4_9.jpeg)
+![Movement](final-images/Cluster4_10.jpeg)
+
 
 #### Human Tendency
 Analyzing each cluster, I noticed my human tendency to try to find a pattern. For example, once I saw a “lump” appearing in a series of artworks, I hoped that this trend continued throughout the cluster and might have disregarded what did not fit into the definition of “lump”. 
