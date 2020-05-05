@@ -27,7 +27,7 @@ From the silhouette graph, I decided that the k = 6. Even though the average sil
 K=8 was a strong contender too (average silhouette_score: about 0.3644) except for some outliers of the cluster #4. 
 ![s](final-images/final_silhouette_8Clusters.png)
 
-However, I finally concluded K=6 based after comparing the images under these two Ks.
+However, I finally concluded K=6, after comparing the images under these two Ks.
 
 #### Themes
 Here are the curated "themes" I found in each of 6 clusters this time.
@@ -38,7 +38,7 @@ Here are the curated "themes" I found in each of 6 clusters this time.
 - Cluster 4: Movement (especially, with the diagonal lines) 
 - Cluster 5: Division of a space
 
-Below are some images from Cluster 1  and Cluster 4, which I found most interesting. For all the other clusters, please look at the bottom part of the [final notebook](Cluster_Submission_Final.ipynb)
+Below are some images from Cluster 1  and Cluster 4, which I found most interesting. For all the other clusters, please look at the bottom part of the [final notebook](Cluster_Submission_Final.ipynb).
 
 Cluster 1 (Lump, Lump, Lump)<br>
 ![Lump](final-images/Cluster1_2.jpeg)<br>
