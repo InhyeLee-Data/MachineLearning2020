@@ -42,7 +42,6 @@ Below are some images from Cluster 1  and Cluster 4, which I found most interest
 
 #### Cluster 1 (Lump, Lump, Lump)<br>
 ![Lump](final-images/Cluster1_2.jpeg)<br>
-![Lump](final-images/Cluster1_3.jpeg)<br>
 ![Lump](final-images/Cluster1_4.jpeg)<br>
 ![Lump](final-images/Cluster1_5.jpeg)<br>
 ![Lump](final-images/Cluster1_6.jpeg)<br>
@@ -61,7 +60,6 @@ Below are some images from Cluster 1  and Cluster 4, which I found most interest
 ![Movement](final-images/Cluster4_6.jpeg)<br>
 ![Movement](final-images/Cluster4_7.jpeg)<br>
 ![Movement](final-images/Cluster4_8.jpeg)<br>
-![Movement](final-images/Cluster4_9.jpeg)<br>
 ![Movement](final-images/Cluster4_10.jpeg)<br>
 
 
