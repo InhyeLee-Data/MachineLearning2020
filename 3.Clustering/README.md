@@ -31,15 +31,14 @@ However, I finally concluded K=6 based after comparing the images under these tw
 
 #### Themes
 Here are the curated "themes" I found in each of 6 clusters this time.
+- Cluster 0: Fragmented
+- Cluster 1: Lump, Lump, Lump
+- Cluster 2: Lines  
+- Cluster 3: Bold and Mixed
+- Cluster 4: Movement (especially, with the diagonal lines) 
+- Cluster 5: Division of a space
 
-Cluster 0: Fragmented
-Cluster 1: Lump, Lump, Lump
-Cluster 2: Lines  
-Cluster 3: Bold and Mixed
-Cluster 4: Movement (especially, with the diagonal lines) 
-Cluster 5: Division of a space
-
-I’ll share some images from Cluster 1  and Cluster 4, which I found interesting. For all the other clusters, please look at the bottom part of the attached [notebook page] ()
+Below are some images from Cluster 1  and Cluster 4, which I found most interesting. For all the other clusters, please look at the bottom part of the [final notebook](Cluster_Submission_Final.ipynb)
 
 Cluster 1 (Lump, Lump, Lump)<br>
 ![Lump](final-images/Cluster1_2.jpeg)<br>
@@ -70,9 +69,9 @@ Cluster 4 (Movement)<br>
 Analyzing each cluster, I noticed my human tendency to try to find a pattern. For example, once I saw a “lump” appearing in a series of artworks, I hoped that this trend continued throughout the cluster and might have disregarded what did not fit into the definition of “lump”. 
 
 #### Final Words
-For this project, I created two models ([V1](Inhye_Cluster_Submission_v1.ipynb), [Final](Cluster_Submission_Final.ipynb)), and each model presented at least a couple of quite interesting clusters to me. I thought that by using multiple models, I could find different groups that could be meaningful as curated artworks. 
+For this project, I created two models ([V1](Inhye_Cluster_Submission_v1.ipynb) and [Final](Cluster_Submission_Final.ipynb)), and each model presented at least a couple of quite interesting clusters to me. I thought that by using multiple models, I could find different groups that could be meaningful as curated artworks. 
 
-Clustering is a way to find a pattern amongst a group of things. However, humans are great pattern-recognizers and decision makers. In that sense, ML clustering can be an additional aid for us to discover patterns within the artwork. The final “curatorial” decision will always have to be made by humans. (I hope)
+Clustering is a way to find a pattern amongst a group of things. However, humans are great pattern-recognizers and decision makers. In that sense, ML clustering can be an additional aid for us to discover tendencies within the artwork. The final “curatorial” decision will always have to be made by humans. (I hope)
 
 -------
 
