@@ -40,7 +40,7 @@ Here are the curated "themes" I found in each of 6 clusters this time.
 
 Below are some images from Cluster 1  and Cluster 4, which I found most interesting. For all the other clusters, please look at the bottom part of the [final notebook](Cluster_Submission_Final.ipynb).
 
-Cluster 1 (Lump, Lump, Lump)<br>
+#### Cluster 1 (Lump, Lump, Lump)<br>
 ![Lump](final-images/Cluster1_2.jpeg)<br>
 ![Lump](final-images/Cluster1_3.jpeg)<br>
 ![Lump](final-images/Cluster1_4.jpeg)<br>
@@ -52,7 +52,7 @@ Cluster 1 (Lump, Lump, Lump)<br>
 ![Lump](final-images/Cluster1_10.jpeg)<br>
 ![Lump](final-images/Cluster1_11.jpeg)<br>
 
-Cluster 4 (Movement)<br>
+#### Cluster 4 (Movement)<br>
 ![Movement](final-images/Cluster4_1.jpeg)<br>
 ![Movement](final-images/Cluster4_2.jpeg)<br>
 ![Movement](final-images/Cluster4_3.jpeg)<br>
