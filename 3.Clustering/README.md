@@ -19,13 +19,13 @@ My chosen variables are as follows.
 
 #### The Elbow Plot and the Silhouette graph
 From the elbow plot, the elbow seemed to exist somewhere between 3 and 15. 
-![ ]()
+![elbow](final-images/final_elbowPlot.png)
 
 From the silhouette graph, I decided that the k = 6. Even though the average silhouette_score (: about 0.3426 ) was not the highest, the values were pretty coherent within each group, and no visible outliers were noticed. 
-![ ]()
+![s](final-images/final_silhouette_6Clusters.png)
 
 K=8 was a strong contender too (average silhouette_score: about 0.3644) except for some outliers of the cluster #4. 
-![ ]()
+![s](final-images/final_silhouette_8Clusters.png)
 
 However, I finally concluded K=6 based after comparing the images under these two Ks.
 
