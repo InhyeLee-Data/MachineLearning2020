@@ -69,7 +69,7 @@ Analyzing each cluster, I noticed my human tendency to try to find a pattern. Fo
 #### Final Words
 For this project, I created two models ([V1](Inhye_Cluster_Submission_v1.ipynb) and [Final](Cluster_Submission_Final.ipynb)), and each model presented at least a couple of quite interesting clusters to me. I thought that by using multiple models, I could find different groups that could be meaningful as curated artworks. 
 
-Clustering is a way to find a pattern amongst a group of things. However, humans are great pattern-recognizers and decision makers. In that sense, ML clustering can be an additional aid for us to discover tendencies within the artwork. The final “curatorial” decision will always have to be made by humans. (I hope)
+Clustering is a way to find underlying patterns amongst a group of things. Humans are great pattern-recognizers and decision makers by nature. In that sense, ML clustering can be an additional aid to discover tendencies within the arts, when the final “curatorial” decision can be made by humans. (I hope)
 
 -------
 
